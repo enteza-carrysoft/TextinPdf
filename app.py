@@ -18,7 +18,7 @@ col1, col2 = st.columns(2)
 with col1:
     pos_x = st.number_input("Coordenada X del texto (horizontal):", value=50, min_value=0)
 with col2:
-    pos_y = st.number_input("Coordenada Y del texto (vertical):", value=750, min_value=0)
+    pos_y = st.number_input("Coordenada Y del texto (vertical):", value=680, min_value=0)
 
 # El botón de generación solo se muestra si se ha subido un archivo
 if uploaded_file is not None:
